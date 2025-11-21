@@ -235,69 +235,69 @@ function useMockData() {
     const mockApiResponse = {
         "orders": [
             {
-                "id": "ORD-1001",
+                "id": "3901234567",
                 "customer_name": "Alice Johnson",
                 "timestamp": "2025-01-15T10:24:30Z",
                 "items": [
                     {
-                        "id": "ITEM-001",
-                        "sku": "TSH-CTN-001",
-                        "product_name": "Cotton T-Shirt",
-                        "price": 12.99,
+                        "id": "1256347801",
+                        "sku": "MW0MW10800C1Z",
+                        "product_name": "Slim Jersey Crew Neck T-Shirt",
+                        "price": 40.00,
                         "qty": 2,
                         "thumbnail": "https://tommy-europe.scene7.com/is/image/TommyEurope/MW0MW10800_C1Z_productswatch"
                     },
                     {
-                        "id": "ITEM-002",
-                        "sku": "JNS-DNM-034",
-                        "product_name": "Denim Jeans",
-                        "price": 39.99,
+                        "id": "1256347802",
+                        "sku": "DW0DW224541BK",
+                        "product_name": "Sylvia High Rise Flared Jeans",
+                        "price": 85.00,
                         "qty": 1,
                         "thumbnail": "https://tommy-europe.scene7.com/is/image/TommyEurope/DW0DW22454_1BK_productswatch"
                     }
                 ]
             },
             {
-                "id": "ORD-1002",
+                "id": "3901234570",
                 "customer_name": "Brian Smith",
                 "timestamp": "2025-01-15T11:05:10Z",
                 "items": [
                     {
-                        "id": "ITEM-010",
-                        "sku": "HDY-FLC-120",
-                        "product_name": "Hoodie",
-                        "price": 29.99,
+                        "id": "1256347810",
+                        "sku": "MW0MW11599L6K",
+                        "product_name": "Logo Embroidery Flex Fleece Hoody",
+                        "price": 110.00,
                         "qty": 1,
                         "thumbnail": "https://tommy-europe.scene7.com/is/image/TommyEurope/MW0MW11599_L6K_productswatch"
                     },
                     {
-                        "id": "ITEM-011",
-                        "sku": "CAP-CLT-021",
-                        "product_name": "Baseball Cap",
-                        "price": 14.50,
+                        "id": "1256347811",
+                        "sku": "AM0AM12020C1G",
+                        "product_name": "Heritage Logo Baseball Cap",
+                        "price": 28.00,
                         "qty": 1,
                         "thumbnail": "https://tommy-europe.scene7.com/is/image/TommyEurope/AM0AM12020_C1G_productswatch"
                     },
                     {
-                        "id": "ITEM-012",
-                        "sku": "SOX-ATH-003",
-                        "product_name": "Athletic Socks (3-Pack)",
-                        "price": 9.99,
+                        "id": "1256347812",
+                        "sku": "08A1371111085",
+                        "product_name": "2-Pack Classic Flag Embroidery Socks",
+                        "price": 14.00,
                         "qty": 2,
                         "thumbnail": "https://tommy-europe.scene7.com/is/image/TommyEurope/08A1371111_085_productswatch"
                     }
                 ]
             },
             {
-                "id": "ORD-1003",
+                "id": "3901234575",
                 "customer_name": "Carla Reyes",
                 "timestamp": "2025-01-15T12:40:55Z",
                 "items": [
                     {
-                        "id": "ITEM-020",
-                        "sku": "JKT-LGT-078",
-                        "product_name": "Lightweight Jacket",
-                        "price": 49.99,
+                        "id": "1256347890",
+                        "sku": "MW0MW38905DW5",
+                        "product_name": "Logo Patch Hooded Jacket",
+                        "price": 138.00,
                         "qty": 1,
                         "thumbnail": "https://tommy-europe.scene7.com/is/image/TommyEurope/MW0MW38905_DW5_productswatch"
                     }
