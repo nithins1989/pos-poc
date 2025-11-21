@@ -1,7 +1,3 @@
-// Configuration
-const API_BASE_URL = 'https://X/test';
-const ORDERS_ENDPOINT = `${API_BASE_URL}/orders`;
-
 // State
 let orders = [];
 let selectedOrderId = null;
@@ -12,38 +8,8 @@ const orderDetailsEl = document.getElementById('order-details');
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
-    const useMock = true; // Set to false to use real API
-    
-    if (useMock) {
         useMockData();
-    } else {
-        fetchOrders();
-        setInterval(fetchOrders, 30000);
-    }
 });
-
-// Fetch Orders from API
-async function fetchOrders() {
-    try {
-        if (orders.length === 0) {
-            orderListEl.innerHTML = '<p class="loading">Loading orders...</p>';
-        }
-        
-        const response = await fetch(ORDERS_ENDPOINT);
-        
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        
-        const data = await response.json();
-        orders = parseOrdersData(data);
-        renderOrderList();
-        
-    } catch (error) {
-        console.error('Error fetching orders:', error);
-        orderListEl.innerHTML = `<p class="error">Failed to load orders.<br><small>${error.message}</small></p>`;
-    }
-}
 
 // Parse the order structure
 function parseOrdersData(data) {
