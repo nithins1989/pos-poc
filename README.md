@@ -53,16 +53,38 @@ Vendors must update this code to:
 Example placeholder (for vendor modification):
 
 ```javascript
-function addToOrder(orderId) {
-    console.log("Vendor should replace this with their POS API integration.");
-    console.log("Selected Order:", orderId);
-
-    // TODO: Insert POS transaction API call here
-    // Example:
-    // window.pos.send({
-    //     action: "addToTransaction",
-    //     orderId: orderId
-    // });
+// Add to Order function
+function addToOrder() {
+    if (!selectedOrderId) {
+        alert('Please select an order first');
+        return;
+    }
+    
+    const order = orders.find(o => o.id === selectedOrderId);
+    
+    // Here you can add your logic to POST to an endpoint
+    console.log('Adding to order:', order);
+    alert(`Order ${selectedOrderId} for ${order.customerName} added successfully!`);
+    
+    // Example POST request (uncomment and modify as needed):
+    /*
+    fetch('https://X/test/add-order', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(order)
+    })
+    .then(response => response.json())
+    .then(data => {
+        alert('Order added successfully!');
+        console.log('Success:', data);
+    })
+    .catch((error) => {
+        alert('Error adding order');
+        console.error('Error:', error);
+    });
+    */
 }
 ```
 
