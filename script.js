@@ -245,7 +245,7 @@ function useMockData() {
                         "product_name": "Cotton T-Shirt",
                         "price": 12.99,
                         "qty": 2,
-                        "thumbnail": "https://via.placeholder.com/80/3498DB/FFFFFF?text=T-Shirt"
+                        "thumbnail": "https://tommy-europe.scene7.com/is/image/TommyEurope/MW0MW10800_C1Z_productswatch"
                     },
                     {
                         "id": "ITEM-002",
@@ -253,7 +253,7 @@ function useMockData() {
                         "product_name": "Denim Jeans",
                         "price": 39.99,
                         "qty": 1,
-                        "thumbnail": "https://via.placeholder.com/80/2C3E50/FFFFFF?text=Jeans"
+                        "thumbnail": "https://tommy-europe.scene7.com/is/image/TommyEurope/DW0DW22454_1BK_productswatch"
                     }
                 ]
             },
@@ -268,7 +268,7 @@ function useMockData() {
                         "product_name": "Hoodie",
                         "price": 29.99,
                         "qty": 1,
-                        "thumbnail": "https://via.placeholder.com/80/E74C3C/FFFFFF?text=Hoodie"
+                        "thumbnail": "https://tommy-europe.scene7.com/is/image/TommyEurope/MW0MW11599_L6K_productswatch"
                     },
                     {
                         "id": "ITEM-011",
@@ -276,7 +276,7 @@ function useMockData() {
                         "product_name": "Baseball Cap",
                         "price": 14.50,
                         "qty": 1,
-                        "thumbnail": "https://via.placeholder.com/80/F39C12/FFFFFF?text=Cap"
+                        "thumbnail": "https://tommy-europe.scene7.com/is/image/TommyEurope/AM0AM12020_C1G_productswatch"
                     },
                     {
                         "id": "ITEM-012",
@@ -284,7 +284,7 @@ function useMockData() {
                         "product_name": "Athletic Socks (3-Pack)",
                         "price": 9.99,
                         "qty": 2,
-                        "thumbnail": "https://via.placeholder.com/80/27AE60/FFFFFF?text=Socks"
+                        "thumbnail": "https://tommy-europe.scene7.com/is/image/TommyEurope/08A1371111_085_productswatch"
                     }
                 ]
             },
@@ -299,7 +299,7 @@ function useMockData() {
                         "product_name": "Lightweight Jacket",
                         "price": 49.99,
                         "qty": 1,
-                        "thumbnail": "https://via.placeholder.com/80/9B59B6/FFFFFF?text=Jacket"
+                        "thumbnail": "https://tommy-europe.scene7.com/is/image/TommyEurope/MW0MW38905_DW5_productswatch"
                     }
                 ]
             }
